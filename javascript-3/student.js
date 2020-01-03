@@ -15,7 +15,7 @@ let yourName = 'Ben'
 //Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. The function should return a string of 'XPARAM's Grocery List'.
 
 function setGroceryListTitle(x){
-  return `x's Grocery List`
+  return `${x}'s Grocery List`
 }
 
 //////////////////STEP 4////////////////////
@@ -43,7 +43,7 @@ function checkGroceryCount(){
     return 'That looks like a big trip'
   }if(groceryLength === 1){
     return '1 item'
-  }if(groceryLength > 1 && groceryLength < 4){
+  }if(groceryLength > 1 && groceryLength < 5){
     return `${groceryLength} items`
   }
 }
